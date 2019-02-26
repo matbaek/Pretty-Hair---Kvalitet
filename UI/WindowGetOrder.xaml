@@ -1,0 +1,16 @@
+﻿<Window x:Class="KvalitetWPF.WindowGetOrder"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pretty_Hair___Kvalitet"
+        mc:Ignorable="d"
+        Title="WindowGetOrder" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="TextBoxGetOrderOrderNrInput" HorizontalAlignment="Left" Height="23" Margin="53,50,0,0" TextWrapping="Wrap" Text="Indtast ordre nr...." VerticalAlignment="Top" Width="120" FontStyle="Italic"/>
+        <Button x:Name="ButtonGetOrderFindOrderNr" Content="Find" HorizontalAlignment="Left" Margin="193,50,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="ButtonGetOrderBack" Content="Button" HorizontalAlignment="Left" Margin="314,50,0,0" VerticalAlignment="Top" Width="75" Click="ButtonGetOrderBack_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="129,134,0,0" TextWrapping="Wrap" Text="INDSÆT GRID TING?!" VerticalAlignment="Top" Height="197" Width="444" FontSize="72"/>
+
+    </Grid>
+</Window>

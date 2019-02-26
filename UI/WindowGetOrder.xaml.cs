@@ -10,19 +10,25 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace UI
+namespace Pretty_Hair___Kvalitet
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for WindowGetOrder.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class WindowGetOrder : Window
     {
-        public MainWindow()
+        public WindowGetOrder()
         {
             InitializeComponent();
+        }
+
+        private void ButtonGetOrderBack_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow mw = new MainWindow();
+            mw.Show();
+            Close();
         }
     }
 }

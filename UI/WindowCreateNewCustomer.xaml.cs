@@ -10,19 +10,25 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace UI
+namespace Pretty_Hair___Kvalitet
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for WindowCreateNewCustomer.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class WindowCreateNewCustomer : Window
     {
-        public MainWindow()
+        public WindowCreateNewCustomer()
         {
             InitializeComponent();
+        }
+
+        private void ButtonCreateNewCustomerBack_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow mw = new MainWindow();
+            mw.Show();
+            Close();
         }
     }
 }
